@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         print("Happy Git!!!")
         
         print(reverse(text: "Palindrome"))
+        
+        print(reverse(text: "Just for push checking"))
     }
     
     func reverse(text: String) -> String {
