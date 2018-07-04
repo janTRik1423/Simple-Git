@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Happy Git!!!")
+        
+        print(reverse(text: "Palindrome"))
+    }
+    
+    func reverse(text: String) -> String {
+        return String(text.reversed())
     }
 
     override func didReceiveMemoryWarning() {
